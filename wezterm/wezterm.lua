@@ -11,18 +11,20 @@ config.font_size = 12
 
 config.default_cursor_style = "SteadyUnderline"
 
-config.window_background_opacity = 0.8
-config.macos_window_background_blur = 30
+-- config.window_background_opacity = 0.8
+-- config.macos_window_background_blur = 30
 
 config.enable_tab_bar = false
 -- config.tab_bar_at_bottom = true
-config.window_decorations = "RESIZE"
+config.window_decorations = "MACOS_FORCE_ENABLE_SHADOW | RESIZE"
 -- config.window_frame = {
 -- 	active_titlebar_bg = wezterm.color.from_hsla(h, s, l, 0.8),
 -- 	inactive_titlebar_bg = "none",
 -- 	active_titlebar_fg = "none",
 -- 	inactive_titlebar_fg = "none",
 -- }
+
+config.max_fps = 144
 
 config.keys = {
   {
